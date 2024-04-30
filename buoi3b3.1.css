@@ -1,0 +1,37 @@
+.HTML {
+   background-color: #efefef;
+   border: 2px solid black;
+   padding: 10px;
+   margin: 20px;
+}
+  .hop1 {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid red;
+    text-align: center;
+    line-height: 100px;
+    background-color: red; color:white;
+    
+  }
+  
+  .hop2 {
+    width: 100px;
+    height: 100px;  
+    padding: 10px;
+    border: 1px solid blue;
+    text-align: center;
+    line-height: 100px;
+    background-color: blue; color:white;
+    
+  }
+  .hop3 {
+    width: 100px;
+    height: 100px;  
+    padding: 10px;
+    border: 1px solid green;
+    text-align: center;
+    line-height: 100px;
+    background-color:green ; color:white;
+    
+  }
