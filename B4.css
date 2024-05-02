@@ -1,0 +1,39 @@
+body{
+    border: 1px solid rgba(134, 132, 132, 0.471);
+    max-width: 620px;
+    height: 350px;
+    margin-top: 0px;
+}
+h2 {
+    margin-top: 0px;
+    padding-left: 10px;
+    background-color: rgba(18, 17, 17, 0.056);
+    max-width: 620px;
+    color: rgb(199, 80, 80);
+}
+
+img{
+    border: 1px solid rgba(165, 165, 168, 0.73);
+    padding: 10px;
+    margin-left: 10px;
+}
+.tieudetrai{
+    max-width: 400px;   
+    float: left;   
+    padding-top: 0px;
+}
+    
+.tieudephai{   
+    max-width: 400px;    
+    float: left;   
+    padding-left: 15px;
+    
+}
+div{
+    display: inline-block;
+    
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
