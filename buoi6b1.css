@@ -1,0 +1,36 @@
+.container {
+    margin: 0 auto;
+    padding: 3%;
+    box-sizing: border-box;
+    max-width: 1280px;
+    border-radius: 5px;
+    background-color: rgb(235, 15, 88);
+    color: #ffff;
+}
+header{
+ text-align: left;   
+}
+.content {
+    display: flex;
+    gap: 5%;
+    font-size: 18px;
+    list-style: none;
+}
+.img{
+    width: 360px;
+    height: 240px;
+}
+p{
+    font-size: 18pt;
+}
+
+@media screen and (max-width: 600px) {
+    .content {
+        flex-direction: column;
+    }
+    .content.img {
+        width: 100%;
+       
+        
+    }
+}
