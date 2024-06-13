@@ -100,8 +100,8 @@ text-decoration: underline;
 }
 
 .home__content__img{
-  height: 650px;
   width: 500px;
+  height: 650px;
   border-radius: 300px 300px 0 0;
   position: relative;
   overflow: hidden; 
@@ -551,13 +551,76 @@ button:hover{
   color: #a4cec0;
 }
 
-@media screen and (max-width:840px) {
-  #testimonials{
-    padding: 80px calc((100% - 90vw)/2);
+@media screen and (max-width:768px) {
+  .header{
+    width: 768px;
+  }
+  .home__content{
+    width: 768px;
+  }
+  .home__content__img{
+    max-width: 350px;
+  }
+  #home{
+    display: block;
+  }
+  #About {
+    display: block;
+  }
+
+  .says{
+    display: block;
+    text-align: center;
+  }
+  .say{
+    width: 250px;
+    height: 250px;
+  }
+  .say img{
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .work-head2{
+    display: block;
+  }
+  .work-head h1{
+    text-align: center;
+  }
+  .overlay{
+    display: block;
+  }
+  .overlay_container{
+    margin-left: 50px;
+  }
+  .overlay_container1{
+    margin-left: 50px;
+    margin-top: 70px;
+  }
+  .overlay_container2{
+    margin-left: 50px;
+    margin-top: 70px;
+  }
+  .overlay_container3{
+    margin-left: 50px;
+    margin-top: 70px;
+  }
+  .chia2{
+    display: block;
+  }
+  .About__heading h1{
+    padding-top: 1px;
+  }
+  .About__heading p{
+    font-size: 12px;
+  }
+  
+  .anhabout{
+    padding-top: -1000px;
+    width: 0px;
+    height: 0px;
+  }
 }
-  #contact{
-    padding: 40px calc((100% - 90vw)/2);
-}
-}
+
 
   
